@@ -1,0 +1,31 @@
+.square {
+  outline: 5px solid black;
+  width: 100px;
+  height: 100px;
+  float: left;
+  transition: outline 0.5s, background-color 0.5s;
+  cursor: pointer;
+  background-color: gray;
+  list-style: none;
+}
+
+ul {
+  border: 5px;
+  width: 320px;
+  height: 320px;
+  margin: 0 auto;
+}
+
+h1 {
+  font-family: Arial, sans-serif;
+  text-align: center;
+}
+
+.markedSquare {
+  background-color: white;
+  font-size: 75px;
+  font-family: sans-serif;
+  text-align: center;
+  line-height: 80px;
+  font-weight: bolder;
+}
